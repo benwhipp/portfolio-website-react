@@ -17,7 +17,7 @@ export const App = (props: HelloWorldProps) => (
     theme={theme}
   >
     <Typography>
-      Hi {props.userName} from React! Welcome to {props.lang}!
+      Hi {props.userName} from Rsdfsdeact! sdfdsWelcomsdfsdfe to {props.lang}!
     </Typography>
   </ThemeProvider>
 );
