@@ -1,23 +1,22 @@
 import * as React from "react";
 
 import {
-  Typography,
-  ThemeProvider
+	ThemeProvider
 } from '@material-ui/core';
 
 import theme from '../assets/theme';
 
+import Nav from './Nav'
+
 export interface HelloWorldProps {
-  userName: string;
-  lang: string;
+	userName: string;
+	lang: string;
 };
 
 export const App = (props: HelloWorldProps) => (
-  <ThemeProvider
-    theme={theme}
-  >
-    <Typography>
-      Hi {props.userName} from Rsdfsdeact! sdfdsWelcomsdfsdfe to {props.lang}!
-    </Typography>
-  </ThemeProvider>
+	<ThemeProvider
+		theme={theme}
+	>
+        <Nav />
+	</ThemeProvider>
 );
